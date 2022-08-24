@@ -9,7 +9,7 @@ import { CursosModule } from './cursos/cursos.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -17,7 +17,7 @@ import { CursosModule } from './cursos/cursos.module';
     CriarCursoModule,
     CursosModule
   ],
-  //providers: [CursosService],
+  providers: [CursosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
